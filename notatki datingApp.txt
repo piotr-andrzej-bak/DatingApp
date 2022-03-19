@@ -1,0 +1,14 @@
+.NET 6
+VS code / VS Studio
+node.js
+Postman
+
+dotnet new -h
+dotnet new --list
+PS C:\dotnet\DatingApp> dotnet new sln
+PS C:\dotnet\DatingApp> dotnet new webapi -o API
+PS C:\dotnet\DatingApp> dotnet sln add API
+
+API.csproj -> comment nullable
+
+dotnet dev-certs https --trust
